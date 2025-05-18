@@ -29,11 +29,24 @@ Built with **Streamlit**, **RDKit**, and **Python**, this app enables scientists
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/qaintumai/drug_discovery.git
+cd drug_discovery
 pip install -r requirements.txt
 ```
 ## ▶️ Running the App
 ```bash
 streamlit run app.py
 ```
+## 🧪 Testing
+We use pytest for unit tests:
+```bash
+python -m pytest tests/
+```
+## 🤝 Contributing
+
+PRs welcome! Especially for:
+
+* Real docking integration (e.g., Smina)
+* Quantum property filtering
+* PDF report generator
+* Performance improvements
